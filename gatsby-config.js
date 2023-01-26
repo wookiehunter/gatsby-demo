@@ -7,12 +7,6 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [{
-    resolve: 'gatsby-source-sanity',
-    options: {
-      "projectId": "gatsby-demo",
-      "dataset": ""
-    }
-  }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-styled-components", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
